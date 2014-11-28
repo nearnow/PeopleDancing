@@ -1,0 +1,265 @@
+body{
+	color:#ccc;
+}
+#navbar .grid_8{
+	position: absolute;
+	z-index: 1000;
+
+}
+.performance{
+	position:relative;
+	height:600px;
+}
+#user_video{
+	width:480px;
+	height:270px;
+	background: #000;
+	 transform: rotateY(180deg);
+    -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+    -moz-transform:rotateY(180deg); /* Firefox */
+
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+
+}
+.webcam_not_connected{
+	padding:10px;
+	background: #db0f0f;
+	color:#fff;
+	position:absolute;
+	width:360px;
+	top: 100px;
+	left: 50px;
+	text-align: center;
+}
+.videos .grid_6:first-child{
+	position: relative;
+}
+.red{
+	color:#db0f0f;
+}
+.videos .grid_6:first-child .info span{
+	font-weight:600;
+}
+.videos .grid_6:first-child .info{
+	text-align: center;
+}
+.remember{
+	background: url('../images/remind-back.png');
+	padding:10px;
+	position:absolute;
+	z-index:1000;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.85);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.85);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.85);
+	color:#fff;
+	font-weight:400;
+	top:0px;
+	left:-90px;
+	width:415px;
+	height:94px;
+	-webkit-opacity: 0;
+	-moz-opacity: 0;
+	filter: alpha(opacity=0);
+	opacity: 0.0;
+
+}
+#masthead{
+	position: relative;
+}
+.user-welcome{
+	color:#fff;
+	text-align: right;
+	position: absolute;
+	right:10px;
+	top:70px;
+}
+.remember div{
+	margin:35px 0 0 20px;
+}
+.progress-info,
+.progress-info .t{
+	width:100%;
+	margin:0 0 10px 0;
+}
+.progress-info .container{
+	width:100%;
+	display: inline-block;
+	margin-left: 410px;
+	margin-top:10px;
+}
+.progress-info .container .circ-out{
+	width:16px;
+	height:16px;
+	border-radius: 8px;
+	background: #fff;
+	display: inline-block;
+	float:left;
+	cursor:pointer;
+}
+.videos{
+	position:relative;
+}
+.videos .grid_6{
+
+}
+.videos .camera_warning{
+	padding:10px;
+	color:#fff;
+	position:absolute;
+	top: 350px;
+	left:200px;
+	background:#db0f0f;
+	cursor:pointer;
+}
+.video_status{
+	width:100%;
+	margin:6px 0;
+	font-style: italic;
+	text-align: center;
+}
+.progress-info .line{
+	width:20px;
+	border-bottom:1px solid #fff;
+	display: inline-block;
+	float:left;
+	margin-top:8px;
+}
+.progress-info .container .circ{
+	background: none;
+	border:1px solid #fff;
+	width:16px;
+	height:16px;
+	border-radius: 8px;
+	display: inline-block;
+	float:left;
+	cursor:pointer;
+}
+.progress-info .t{
+	text-align: center;
+}
+#vimeo_video{
+	width:480px;
+	height:270px;
+	background: #000;
+	-webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+}
+#vimeo_video .info{
+	width:100%;
+}
+.info .time{
+	width:49%;
+	float:left;
+	text-align: right;
+}
+.progress{
+	width:100%;
+	height:4px;
+	position: relative;
+	background-color: #000;
+	margin: 6px 0;
+}
+.curtime{
+	width:0px;
+	height:4px;
+	position: absolute;
+	background-color: #fff;
+}
+.info .title{
+	width:49%;
+	float:left;
+	text-align: left;
+}
+.performance h1{
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+.perf-info{
+	width:100%;
+	text-align: center;
+	margin:10px 0;
+}
+.perf-info div{
+	display:inline-block;
+	width:160px;
+}
+
+.menu-header-menu-container{
+
+}
+.menu-header-menu-container > ul{
+	width:100%;
+	height:45px;
+}
+.menu-header-menu-container ul li{
+	display:inline-block;
+	margin:0  8px 0 0;
+	text-transform: uppercase;
+	line-height: 45px;
+	position:relative;
+	display: inline-block;
+}
+.menu-header-menu-container ul li a{
+	height:100%;
+	width:100%;
+	color:#fff;
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+.menu-header-menu-container ul li ul.sub-menu{
+	position:absolute;
+	top:45px;
+	left:0;
+	float:left;	
+	width:200px;
+	display: none;
+}
+.menu-header-menu-container ul li:hover ul.sub-menu{
+	display:block;
+
+}
+.menu-header-menu-container ul li ul.sub-menu li{
+	padding-left:8px;
+	background-color: #6E6C63;
+	width: 100%;
+	display: block;
+}
+.menu-header-menu-container ul li ul.sub-menu li:hover{
+
+	background-color: #e6402a;
+}
+.menu-header-menu-container ul li ul.sub-menu li:hover a{
+	color:#fff;
+}
+
+.fSocial{
+	margin-top: 20px;
+	width: 180px;
+	position: absolute;
+	right: 0px;
+}
+.fSocial li{
+	display:inline-block;
+	margin:0 6px 0 0;
+}
+.fSocial li a{
+	color:#fff;
+}
+.home-header-container{
+	min-height:800px;
+}
+
+.welcome{
+	color:#fff;
+	margin:6px 0;
+	text-align: right;
+}
+.perf-info span{
+	font-weight:600;
+}
